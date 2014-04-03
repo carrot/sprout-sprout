@@ -1,7 +1,7 @@
 Sprout Sprout Template
-----------------------
+======================
 
-This is a basic [sprout](http://github.com/carrot/sprout) template to create, well, sprout templates. 
+This is a basic [sprout](http://github.com/carrot/sprout) template to create, well, sprout templates.
 
 ### Installation
 

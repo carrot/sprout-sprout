@@ -5,7 +5,7 @@
 ### Installation
 
 - `npm install sprout -g`
-- `sprout add node https://github.com/<%= github_username %>/sprout-<%= name %>.git`
+- `sprout add node https://github.com/<%= github_username %>/<%= name %>.git`
 
 ### Options
 
