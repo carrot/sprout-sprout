@@ -1,7 +1,6 @@
 exports.before = (sprout, done) ->
-  console.log 'generating new sprout template'
-  done()
-
+  # before hook
+  
 exports.configure = [
   {
     type: 'input',
@@ -10,15 +9,18 @@ exports.configure = [
   },
   {
     type: 'input',
-    name: 'github_username',
-    message: 'What is your github username?'
+    name: 'description',
+    message: 'Describe your project'
   },
   {
     type: 'input',
-    name: 'description',
-    message: 'Describe your project'
+    name: 'github_username',
+    message: 'What is your github username?'
   }
 ]
+
+exports.before_render = (sprout, done) ->
+  # before_render hook
 
 exports.after = (sprout, done) ->
   # after hook
