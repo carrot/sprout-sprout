@@ -1,6 +1,3 @@
-exports.before = (sprout, done) ->
-  # before hook
-  
 exports.configure = [
   {
     type: 'input',
@@ -18,6 +15,9 @@ exports.configure = [
     message: 'What is your github username?'
   }
 ]
+
+exports.before = (sprout, done) ->
+  # before hook
 
 exports.before_render = (sprout, done) ->
   # before_render hook
