@@ -1,14 +1,14 @@
 exports.configure = [
   {
-    name: 'name',
+    name: 'name'
     message: 'What is the name of your sprout template?'
   },
   {
-    name: 'description',
+    name: 'description'
     message: 'Describe your project'
   },
   {
-    name: 'github_username',
+    name: 'github_username'
     message: 'What is your github username?'
   }
 ]
