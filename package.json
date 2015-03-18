@@ -1,0 +1,18 @@
+{
+  "name": "sprout-sprout",
+  "version": "0.0.1",
+  "description": "a sprout template for creating sprout templates",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carrot/sprout-sprout.git"
+  },
+  "author": "Carrot Creative",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carrot/sprout-sprout/issues"
+  },
+  "homepage": "https://github.com/carrot/sprout-sprout"
+}
