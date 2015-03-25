@@ -19,7 +19,7 @@ exports.configure = [
 exports.before = (sprout, done) ->
   # before hook
 
-exports.before_render = (sprout, done) ->
+exports.beforeRender = (sprout, done) ->
   # before_render hook
 
 exports.after = (sprout, done) ->
