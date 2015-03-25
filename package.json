@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "a sprout template for creating sprout templates",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/carrot/sprout-sprout/issues"
   },
-  "homepage": "https://github.com/carrot/sprout-sprout"
+  "homepage": "https://github.com/carrot/sprout-sprout",
+  "devDependencies": {
+    "mocha": "2.2.x",
+    "coffee-script": "1.9.1",
+    "chai": "2.1.x",
+    "chai-as-promised": "4.3.x",
+    "sprout": "0.2.x",
+    "rimraf": "2.3.x"
+  }
 }
