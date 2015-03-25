@@ -17,6 +17,11 @@ describe 'init', ->
         fs.existsSync(tgt).should.be.ok
         contents = fs.readFileSync(tgt, 'utf8')
         contents.should.match /# project x/
+      .then ->
+        tgt = path.join(test_path, 'test', 'test.coffee')
+        fs.existsSync(tgt).should.be.ok
+        contents = fs.readFileSync(tgt, 'utf8')
+        contents.should.match /test-project-x/
       .then -> sprout.remove(tpl)
-      # .then -> rimraf.sync(test_path)
+      .then -> rimraf.sync(test_path)
       .then -> done()
