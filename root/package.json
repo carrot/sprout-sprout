@@ -3,8 +3,16 @@
   "version": "0.0.0",
   "description": "<%= description %>",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "2.2.x",
+    "coffee-script": "1.9.1",
+    "chai": "2.1.x",
+    "chai-as-promised": "4.3.x",
+    "sprout": "0.2.x",
+    "rimraf": "2.3.x"
+  }
 }

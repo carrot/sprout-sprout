@@ -7,7 +7,7 @@ test_path          = path.join(__dirname, 'tmp')
 
 describe 'init', ->
   it 'creates new project from template', (done) ->
-    tpl = 'test-sprout-sprout'
+    tpl = 'test-<%= S(name).slugify().value() %>'
 
     sprout.add(tpl, test_template_path)
       .then ->
@@ -18,5 +18,5 @@ describe 'init', ->
         contents = fs.readFileSync(tgt, 'utf8')
         contents.should.match /# project x/
       .then -> sprout.remove(tpl)
-      # .then -> rimraf.sync(test_path)
+      .then -> rimraf.sync(test_path)
       .then -> done()
