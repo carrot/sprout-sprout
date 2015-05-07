@@ -5,7 +5,7 @@ This is a basic [sprout](http://github.com/carrot/sprout) template to create, we
 
 ### Installation
 
-- `npm install sprout -g`
+- `npm install sprout-cli -g`
 - `sprout add sprout https://github.com/carrot/sprout-sprout.git`
 - `sprout new sprout mytemplate`
 
