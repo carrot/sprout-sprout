@@ -9,7 +9,7 @@ opts =
   config: path.join(_path, 'locals.json')
 
 before ->
-  sprout.add(tpl, test_template_path, {verbose: true})
+  sprout.add(tpl, test_template_path)
   .then -> rimraf.sync(test_path)
   .then -> sprout.init(tpl, test_path, opts)
 
