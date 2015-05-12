@@ -1,26 +1,23 @@
 exports.configure = [
   {
-    type: 'input'
     name: 'name'
     message: 'What is the name of your project?'
   },
   {
-    type: 'input'
     name: 'description'
     message: 'Describe your project'
   },
   {
-    type: 'input'
     name: 'github_username'
     message: 'What is your github username?'
   }
 ]
 
-exports.before = (sprout, done) ->
+exports.before = (utils, config) ->
   # before hook
 
-exports.beforeRender = (sprout, done) ->
+exports.beforeRender = (utils, config) ->
   # before_render hook
 
-exports.after = (sprout, done) ->
+exports.after = (utils, config) ->
   # after hook
