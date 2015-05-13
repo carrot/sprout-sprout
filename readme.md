@@ -1,5 +1,5 @@
-Sprout Sprout Template
-======================
+# Sprout Sprout Template
+[![tests](http://img.shields.io/travis/carrot/sprout-sprout/master.svg?style=flat)](https://travis-ci.org/carrot/sprout-sprout)
 
 This is a basic [sprout](http://github.com/carrot/sprout) template to create, well, sprout templates.
 
