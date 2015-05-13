@@ -5,8 +5,8 @@
 ### Installation
 
 - `npm install sprout-cli -g`
-- `sprout add <%= S(name).slugify().value() %> https://github.com/<%= github_username %>/<%= name %>.git`
-- `sprout new <%= S(name).slugify().value() %> myproject `
+- `sprout add <%= S.slugify(name) %> git@github.com:<%= github_username %>/<%= S.slugify(name) %>.git`
+- `sprout new <%= S.slugify(name) %> myproject `
 
 ### Options
 
