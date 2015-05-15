@@ -12,7 +12,7 @@
     "coffee-script": "1.9.1",
     "chai": "2.1.x",
     "chai-as-promised": "4.3.x",
-    "sprout": "0.2.x",
+    "sprout": "0.4.x",
     "rimraf": "2.3.x"
   }
 }
