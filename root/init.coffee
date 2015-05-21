@@ -13,7 +13,7 @@ exports.configure = [
   }
 ]
 
-exports.before = (utils, config) ->
+exports.before = (utils) ->
   # before hook
 
 exports.beforeRender = (utils, config) ->
