@@ -15,7 +15,6 @@ before ->
 
 after ->
   sprout.remove(tpl)
-  .then -> rimraf.sync(test_path)
 
 describe 'init', ->
   it 'creates new project from template', (done) ->
