@@ -4,7 +4,7 @@ fs     = require 'fs'
 
 test_template_path = path.resolve(_path, '../../')
 test_path          = path.join(__dirname, 'tmp')
-tpl = 'test-<%= S(name).slugify().value() %>'
+tpl = 'test-{{ S(name).slugify().value() }}'
 opts =
   config: path.join(_path, 'locals.json')
 
