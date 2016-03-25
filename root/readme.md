@@ -1,12 +1,12 @@
-# <%= name %>
+# {{ name }}
 
-<%= description %>
+{{ description }}
 
 ### Installation
 
 - `npm install sprout-cli -g`
-- `sprout add <%= S.slugify(name) %> git@github.com:<%= github_username %>/<%= S.slugify(name) %>.git`
-- `sprout new <%= S.slugify(name) %> myproject `
+- `sprout add {{ S.slugify(name) }} git@github.com:{{ github_username }}/{{ S.slugify(name) }}.git`
+- `sprout new {{ S.slugify(name) }} myproject `
 
 ### Options
 
